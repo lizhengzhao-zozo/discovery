@@ -1,4 +1,4 @@
-module github.com/iamxvbaba/discovery
+module github.com/lizhengzhao-zozo/discovery
 
 go 1.17
 
