@@ -3,10 +3,10 @@ package discovery
 import (
 	"context"
 	"encoding/json"
-	"go.etcd.io/etcd/api/v3/mvccpb"
-	"go.etcd.io/etcd/client/v3"
-	"google.golang.org/grpc/resolver"
 	"time"
+
+	"go.etcd.io/etcd/api/v3/mvccpb"
+	"google.golang.org/grpc/resolver"
 )
 
 type Watcher struct {
